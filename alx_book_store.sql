@@ -1,4 +1,5 @@
--- Use the existing database
+-- Create the database if it does not exist and use it
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
 
 -- Authors Table
